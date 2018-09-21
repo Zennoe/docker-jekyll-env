@@ -7,4 +7,4 @@ RUN apt-get update && \
     ruby2.3-dev bundler git rsync ssh zlib1g-dev \
     && apt-get clean
     
-RUN gem install jekyll therubyracer execjs
+RUN gem install jekyll therubyracer execjs html-proofer minima jekyll-feed jekyll-minifier jekyll-paginate jekyll-sitemap
