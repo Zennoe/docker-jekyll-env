@@ -3,7 +3,7 @@ MAINTAINER Zennoe
 
 RUN apt-get update && \
     DEBIAN_FRONTEND=noninteractive apt-get install -y \
-    webp imagemagick ffmpeg libvpx \
+    webp imagemagick ffmpeg vpx-tools \
     ruby2.3-dev bundler git rsync ssh zlib1g-dev \
     && apt-get autoremove && apt-get clean
     
