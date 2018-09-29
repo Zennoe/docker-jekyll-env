@@ -4,7 +4,7 @@ MAINTAINER Zennoe
 RUN apt-get update && \
     DEBIAN_FRONTEND=noninteractive apt-get install -y \
     imagemagick ffmpeg vpx-tools \
-    ruby2.3-dev bundler git rsync ssh zlib1g-dev \
+    ruby2.3-dev bundler git rsync ssh zlib1g-dev wget \
     && apt-get autoremove && apt-get clean
     
 RUN cd /usr/local/bin && \
